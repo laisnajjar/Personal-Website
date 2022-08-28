@@ -3,6 +3,7 @@ import './secondPage.css'
 import Button from '@mui/material/Button'
 import Stack from '@mui/material/Stack';
 import { useNavigate } from 'react-router-dom'
+import FireWorks from '../commons/FireWorks'
 
 export default function SecondPage() {
   const navigate = useNavigate()
@@ -35,6 +36,7 @@ export default function SecondPage() {
           Onwards
         </Button>
       </Stack>
+      <FireWorks/>
     </div>
   )
 }

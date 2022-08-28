@@ -6,6 +6,7 @@ import Countdown from 'react-countdown'
 import Button from '@mui/material/Button'
 import Stack from '@mui/material/Stack'
 import { useNavigate } from 'react-router-dom'
+import FireWorks from '../commons/FireWorks'
 import './firstPage.css'
 
 export default function FirstPage() {
@@ -45,7 +46,6 @@ export default function FirstPage() {
           }}
         />
         <Countdown date={Date.now() + 20000} />
-        {/* <FireWorks/> */}
         <Stack spacing={2} direction="row" className="button mt-5">
           <Button variant="outlined" color="primary" onClick={navigateBack}  sx={{ width: '100px' }}>
             I'm a slow reader
