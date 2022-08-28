@@ -6,7 +6,6 @@ import Countdown from 'react-countdown'
 import Button from '@mui/material/Button'
 import Stack from '@mui/material/Stack'
 import { useNavigate } from 'react-router-dom'
-import FireWorks from '../commons/FireWorks'
 import './firstPage.css'
 
 export default function FirstPage() {

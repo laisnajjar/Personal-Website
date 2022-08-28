@@ -17,6 +17,7 @@ export default function Rejected() {
       <div>I was just joking but ...</div>
       <div>
         <iframe
+        title='the office'
           src="https://giphy.com/embed/j0gQA2VD38NKc9rc8y"
           width="480"
           height="400"
